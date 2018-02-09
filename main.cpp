@@ -140,7 +140,6 @@ void mergeSort(vector<int> & a_vector, int l, int r)
     }
 }
 
-
 // Driver program to test above functions
 int main()
 {
@@ -172,7 +171,6 @@ int main()
     a_vector3=a_vector1;
     a_vector4=a_vector1;
 
-
    cout<<"Sorting..."<<endl;
    bubbleSort(a_vector0, a_vector0.size());
    //cout<<"Use sorted Large Array as input"<<endl;
@@ -185,7 +183,6 @@ int main()
    // a_vector2=a_vector0;
    // a_vector3=a_vector0;
    // a_vector4=a_vector0;
-
 
 // // for partially sorted one, combine the sorted vector with the original vector.
     for(i = a_vector0.begin(); i < a_vector0.begin() + num * 0.05; i++)
@@ -203,9 +200,6 @@ int main()
     a_vector3 = a_vector_begin;
     a_vector4 = a_vector_begin;
     
-
-
-
     cout<<"Bubble Sort"<<endl;
     cout<<"Before sorting: ";
     //printArray(a_vector1, a_vector1.size());
